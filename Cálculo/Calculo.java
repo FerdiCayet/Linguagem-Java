@@ -39,7 +39,7 @@ public class Calculo {
     static double Dividido(int n1, int n2) {
         //Declaração de variáveis que só podem ser usados dentro deste módulo
         double res;
-        res = n1 / n2; //Processamento de dados
+        res = (double) n1 / n2; //Processamento de dados
         return res; //Retorno do módulo
     } //fim do módulo Dividido
 
